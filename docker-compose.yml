@@ -1,7 +1,7 @@
 version: '3.8'
 services:
   eureka-server:
-    image: eureka #nombre de la imagen que hemos creado
+    image: eureka:0.0.1-SNAPSHOT #nombre de la imagen que hemos creado
     restart: always
     container_name: eureka
     ports:
@@ -9,7 +9,7 @@ services:
     networks:
       - 'dockernetflix-network'
   zuul-service:
-    image: zuul #nombre de la imagen que hemos creado
+    image: zuul:0.0.1-SNAPSHOT #nombre de la imagen que hemos creado
     restart: always
     container_name: zuul
     ports:
@@ -17,9 +17,9 @@ services:
     networks:
       - 'dockernetflix-network'
   greeting-microservice:
-    image: greetmicroservice #nombre de la imagen que hemos creado
+    image: greeting-microservice:0.0.1-SNAPSHOT #nombre de la imagen que hemos creado
     restart: always
-    container_name: greetmicroservice
+    container_name: greeting-microservice
     networks:
       - 'dockernetflix-network'
 networks:

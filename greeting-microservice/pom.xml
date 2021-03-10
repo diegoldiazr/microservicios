@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ddr.docker.netflix.spring.microservices</groupId>
-	<artifactId>greetings</artifactId>
+	<artifactId>greeting-microservice</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>greetings</name>
+	<name>greeting-microservice</name>
 	<description>Microservicio inicial</description>
 	<properties>
 		<java.version>11</java.version>
