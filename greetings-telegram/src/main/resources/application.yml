@@ -1,6 +1,7 @@
 spring:
   application:
     name: greetings-telegram
+    version: 0.0.1-SNAPSHOT 
  
 #Tomcat Embedded Server Configuration
 server: 
@@ -14,6 +15,6 @@ eureka:
 
 #Telegram Configuration Properties
 telegram:
-  url: "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s"
-  apiToken: "1616522199:AAE3fFzgl3HSnRPo85kT9MPOwyRL7AwoxDU"
-  chatId: "-1001386235816"
+  url: https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s
+  apiToken: 1616522199:AAE3fFzgl3HSnRPo85kT9MPOwyRL7AwoxDU
+  chatId: -1001386235816

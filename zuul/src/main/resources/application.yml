@@ -12,8 +12,8 @@ zuul:
       serv-greet:
         path: /greeting-service/**
         serviceId: greeting-microservice
-      serv-greet2:
-        path: /greeting-service-telegram/**
+      serv-telegram:
+        path: /telegram/**
         serviceId: greetings-telegram
  
 #Eureka Configuration Properties
