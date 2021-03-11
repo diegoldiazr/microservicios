@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ddr.docker.netflix.spring.microservices</groupId>
-	<artifactId>eureka</artifactId>
+	<artifactId>eureka-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>eureka</name>
+	<name>eureka-server</name>
 	<description>Eureka Server</description>
 	<properties>
 		<java.version>11</java.version>

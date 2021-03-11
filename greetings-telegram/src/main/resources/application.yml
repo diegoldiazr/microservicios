@@ -4,10 +4,16 @@ spring:
  
 #Tomcat Embedded Server Configuration
 server: 
-  port: 8001
+  port: 8002
  
 #Eureka Configuration Properties  
 eureka: 
   client:
     serviceUrl:
-      defaultZone: http://eureka-server:8761/eureka
+      defaultZone: http://localhost:8761/eureka
+
+#Telegram Configuration Properties
+telegram:
+  url: "https://api.telegram.org/bot%s/sendMessage?chat_id=%s&text=%s"
+  apiToken: "1616522199:AAE3fFzgl3HSnRPo85kT9MPOwyRL7AwoxDU"
+  chatId: "-1001386235816"

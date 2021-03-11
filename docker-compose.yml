@@ -1,9 +1,9 @@
 version: '3.8'
 services:
   eureka-server:
-    image: eureka:0.0.1-SNAPSHOT #nombre de la imagen que hemos creado
+    image: eureka-server:0.0.1-SNAPSHOT #nombre de la imagen que hemos creado
     restart: always
-    container_name: eureka
+    container_name: eureka-server
     ports:
       - '8761:8761'
     networks:

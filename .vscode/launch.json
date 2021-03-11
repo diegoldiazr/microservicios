@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-EurekaApplication<eureka>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.ddr.docker.netflix.spring.microservices.eureka.EurekaApplication",
+            "projectName": "eureka",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ZuulApplication<zuul>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.ddr.docker.netflix.spring.microservices.zuul.ZuulApplication",
+            "projectName": "zuul",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GreetingsApplication<greeting-microservice>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.ddr.docker.netflix.spring.microservices.greetings.GreetingsApplication",
+            "projectName": "greeting-microservice",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-GreetingsTelegramApplication<greetings-telegram>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.ddr.docker.netflix.spring.microservices.greetingstelegram.GreetingsTelegramApplication",
+            "projectName": "greetings-telegram",
+            "args": ""
+        }
+    ]
+}
