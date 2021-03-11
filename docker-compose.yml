@@ -22,6 +22,12 @@ services:
     container_name: greeting-microservice
     networks:
       - 'dockernetflix-network'
+  greetings-telegram:
+    image: greetings-telegram:0.0.1-SNAPSHOT #nombre de la imagen que hemos creado
+    restart: always
+    container_name: greetings-telegram
+    networks:
+      - 'dockernetflix-network'
 networks:
   dockernetflix-network: #necesitamos crear en una red para alojar los servicios en ella y que puedan comunicarse entre sí
  
